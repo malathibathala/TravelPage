@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(238, 19, 147);
+    color: white;
+    text-indent: 200px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+div.main{
+    height: 600px;
+    width: 100%;
+    /* background-image: url("https://media.istockphoto.com/id/471781838/photo/the-white-sands-and-palm-trees-of-a-tropical-beach.jpg?s=612x612&w=0&k=20&c=eNkwf7-fmOBjGulEW2VgWS6Aw1IhUtLMlB3Ps3mxpFI=");
+    background-size: cover; */
+    background-color: white;
+    letter-spacing: 1px;
+   
+}
+span{
+    color: rgb(238, 19, 147);
+}
+div.nav #aa{
+    height: 20px;
+    width: 200px;
+    color: rgb(10, 10, 10); 
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+#ab{
+    height: 20px;
+    width: 100px;
+    color: rgb(12, 11, 11);
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 18px;
+    font-weight: 500;
+}
+a #ab::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+a #ab:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}
+#b{
+    height: 20px;
+    width: 100px;
+    color: rgb(17, 17, 17);
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+a #b::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+a #b:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+#c{
+    height: 20px;
+    width: 100px;
+    color: rgb(7, 6, 6);
+    position: absolute;
+    top: 40px;
+    left: 700px;
+    font-size: 18px;
+    font-weight: 500;  
+}
+a #c::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+a #c:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}
+
+#d{
+    height: 20px;
+    width: 200px;
+    color: rgb(10, 10, 10);
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+a #d::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 140px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+a #d:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}
+#e{
+    height: 20px;
+    width: 100px;
+    color: rgb(8, 8, 8);
+    position: absolute;
+    top: 40px;
+    left: 980px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+a #e::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+a #e:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}
+#f{
+    height: 20px;
+    width: 100px;
+    color: rgb(12, 12, 12);
+    position: absolute;
+    top: 40px;
+    left: 1080px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+a #f::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(248, 8, 108);
+    /* border-radius: 2px; */
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+a #f:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}
+/* .nav a{
+    height: 40px;
+    width: 120px;
+    color: rgb(14, 13, 13);
+    border: 1px solid rgb(7, 224, 231);
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(14, 216, 132);
+    text-decoration-thickness: 2px;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    font-size: 20px;
+    font-weight: 500; 
+    font-style: oblique;
+    
+} */
+div.second{
+    height: 900px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/hands-holding-paper-house-family-home-protecting-insurance-concept_158104-1568.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second #para{
+    height: 10px;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.second #h1{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.second #button1 a{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(238, 19, 147);
+    color: whitesmoke;
+    border: 2px solid rgb(238, 13, 125);
+    border-radius: 5%;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 15px;
+    font-weight: 700; 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second #button2 a{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(247, 241, 244);
+    color: rgb(15, 14, 14);
+    border: 2px solid rgb(243, 238, 241);
+    border-radius: 5%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.third {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(247, 228, 240);
+    border: 2px solid black;
+    border-radius: 5%;
+    position: relative;
+    bottom: 800px;
+    left: 800px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: 120px 120px 120px ;
+    grid-template-columns: 120px 120px 120px;
+}
+.third h3{
+    height: 100px;
+    width: 200px;
+    color: black; 
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+div#grid{
+    height: 60px;
+    width: 400px;
+    /* background-color: white; */
+    color: black;
+    /* border: 1px solid gray;
+    border-radius: 5%; */
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    line-height: 10px;
+    display: grid;
+    grid-template-rows: 30px 30px 30px  ;
+    grid-template-columns: 150px 150px  ;
+    gap: 10px;
+    
+}
+div#grid input[id="name"]{
+    /* height: 200px;
+    width: 200px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+}
+div#grid input[id="in"]
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+div#grid input[id="out"]
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+div#grid select[id="x"]{
+    height: 30px;
+    width: 310px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+div#grid select[id="y"]{
+    height: 30px;
+    width: 310px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.third h4{
+    height: 40px;
+    width: 310px;
+    background-color: rgb(238, 19, 147);
+    border: 1px outset white;
+    border-radius: 5%;
+    color: rgb(238, 235, 235);
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    position: relative;
+    top: 120px;
+    right: 100px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-decoration: none;
+}
+div.third img{
+    height: 100px;
+    width: 200px;
+    /* background-image: url(home.png);
+    background-size: 100% 300px; */
+    position: absolute;
+    top: 300px;
+    right: 160px;
+    animation-name: home;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+@keyframes home{
+    from{
+        height: 100px;
+        width: 200px;
+        position: absolute;
+        top: 300px;
+        right: 160px;
+    }
+    to{
+        height: 100px;
+        width: 200px;
+        position: absolute;
+        top: 300px;
+        right: 5px;
+    }
+}
+div.four{
+    height: 400px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    position: absolute;
+    top: 650px;
+    left: 0;
+}
+div#map{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+div#map #img1{
+    /* height: 220px;
+    width: 220px; */
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+div#map #head1{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: justify;
+    z-index: 0;
+    position: relative;
+    top: 15px;
+    left: 90px;
+
+}
+div#map #para1{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 30px;
+    left: 8px;
+
+}
+div#map #button1{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(238, 19, 147);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+div#accomodation{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+div#accomodation #img2{
+    /* height: 220px;
+    width: 220px; */
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+div#accomodation #head2{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: justify;
+    z-index: 0;
+    position: relative;
+    top: 15px;
+    left: 70px;
+
+}
+div#accomodation #para2{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+}
+div#accomodation #button2{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(238, 19, 147);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+div#great{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+div#great #img3{
+    /* height: 220px;
+    width: 220px; */
+    background-color: aliceblue;
+    border: 1px solid white;
+    border: 2%;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+div#great #head3{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: justify;
+    z-index: 0;
+    position: relative;
+    top: 15px;
+    left: 70px;
+
+}
+div#great #para3{
+    /* border: 1px solid white;
+    border: 2%; */
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+}
+div#great #button3{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(238, 19, 147);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-align: center;
+    z-index: 0;
+    word-spacing: 1px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+div.footerpart{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(247, 19, 138);
+    transition-timing-function: conical;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 1100px;
+}
+ul.list{
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
